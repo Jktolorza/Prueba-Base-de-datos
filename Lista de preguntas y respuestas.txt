@@ -1,0 +1,135 @@
+1- ¿Cuál es la descripción que crees que define mejor el concepto 'clase' en la programación orientada a objetos?
+
+Es un concepto similar al de 'array'
+Es un tipo particular de variable
+Es un modelo o plantilla a partir de la cual creamos objetos =Correcto
+Es una categoria de datos ordenada secuencialmente
+
+2- ¿Qué elementos crees que definen a un objeto?
+
+Sus cardinalidad y su tipo
+Sus atributos y sus métodos = Correcto
+La forma en que establece comunicación e intercambia mensajes
+Su interfaz y los eventos asociados
+
+3- ¿Qué código de los siguientes tiene que ver con la herencia?
+
+public class Componente extends Producto = Correcto
+public class Componente inherit Producto
+public class Componente implements Producto
+public class Componente belong to Producto
+
+4- ¿Qué significa instanciar una clase?
+
+Duplicar una clase
+Eliminar una clase
+Crear un objeto a partir de la clase = Correcto
+Conectar dos clases entre sí
+
+5- En Java, ¿a qué nos estamos refiriendo si hablamos de 'Swing'?
+
+Una función utilizada para intercambiar valores = Correcto
+Es el sobrenombre de la versión 1.3 del JDK
+Un framework específico para Android
+Una librería para construir interfaces gráficas
+
+6- ¿Qué es Eclipse?
+
+Una libreria de Java
+Una versión de Java especial para servidores
+Un IDE para desarrollar aplicaciones = Correcto
+Ninguna de las anteriores
+
+7- ¿Qué es el bytecode en Java?
+
+El formato de intercambio de datos
+El formato que obtenemos tras compilar un fuente .java = Correcto
+Un tipo de variable
+Un depurador de código
+
+8- ¿Qué código asociarías a una Interfaz en Java?
+
+public class Componente interface Product
+Componente cp = new Componente (interfaz)
+public class Componente implements Printable = Correcto
+Componente cp = new Componente.interfaz
+
+9- ¿Qué significa sobrecargar (overload) un método?
+
+Editarlo para modificar su comportamiento
+Cambiarle el nombre dejándolo con la misma funcionalidad
+Crear un método con el mismo nombre pero diferentes argumentos = Correcto
+Añadirle funcionalidades a un método
+
+
+10- ¿Qué es una excepción?
+
+Un error que lanza un método cuando algo va mal = Correcto
+Un objeto que no puede ser instanciado
+Un bucle que no finaliza
+Un tipo de evento muy utilizado al crear interfaces
+
+
+Test de HTML y CSS
+
+1-¿Cuál es el lenguaje estándar específico para aplicar estilos de presentación a nuestras páginas web?
+
+Javascript
+Flash
+CSS = Correcta
+
+2-¿Qué es XHTML?
+
+La adaptación del estándar HTML según las reglas XML = Correcta
+Es el HTML dinámico
+Es la como se conoce a la familia genérica de las distintas versiones de HTML
+
+3-¿Cuál crees que es la mejor manera de aplicar estilos a una página web?
+
+Incluir los estilos en las etiquetas HTML para que se carguen y ejecuten antes
+Incluirlos en un fichero externo vinculado a ese fichero HTML = Correcta
+Incluirlos en la sección cabecera ('head') para agruparlos en un mismo sitio en la misma página
+
+4-¿Por qué es conveniente incluir la declaración de DOCTYPE en la página HTML?
+
+Si no se incluye el navegador no puede renderizar (mostrar) la página
+Para evitar que el navegador entre en 'Quirk Mode' y la interprete/muestre mal = Correcta
+Para indicar si se ha utilizado o no Flash
+
+5-¿Para que sirve el atributo 'class'?
+
+Para clasificar el tipo de enlace ('a') que estamos definiendo: 'salto' interno, vínculo a página en el mismo dominio o a un sitio web externo
+Es específico para indicar el color de la fuente que queremos aplicar, Por ejemplo: p class="red" presentaría las letras en rojo de ese párrafo
+Para aplicar unos determinados estilos a los elementos que tenga la misma clase, es decir, el mismo valor en ese atributo. = Correcta
+
+6-¿Qué función tiene el elemento 'div'?
+
+Es un elemento divisor, y hace que el navegador muestre una línea horizontal de separación (por ejemplo entre secciones de la página)
+Es un contenedor. Crea bloques, por ejemplo para diferenciar distintas secciones de una página (cabecera, pié, columnas..) = Correcta
+Permite realizar una operación arirmética de división en los valores númericos de una tabla (también se utiliza 'sum' y 'dif' para suma y resta)
+
+7-¿Qué está mal en esta regla de estilo?: .cuadro { border: 1px blue dotted padding: 10px 5px; }
+
+Falta un ';' (punto y coma) al final de la declaración del estilo 'border' = Correcta
+falta una ',' (coma) entre los dos valores de la propiedad padding (10px 5px)
+no se puede poner un '.' (punto) al inicio de una declaración (antes de la palabra 'cuadro)'
+
+8-¿Qué significa que una etiqueta/elemento está 'deprecated' en HTML?
+
+Que si la utilizamos no la entenderán (y no se podrá visualizar bien) en los navegadores
+Que ya no forma parte de las especificaciones de la esa versión concreta del estándar HTML = Correcta
+Que ha cambiado de nombre ese elemento en la siguiente versión de HTML
+
+9-Si incluimos una etiqueta de este tipo en nuestra página HTML, ¿qué queremos que haga el navegador?: <img src="../icono.gif" />
+
+que incluya la imagen 'icono.gif' que se encuentra en el directorio padre de la carpeta donde está nuestra página HTML = Correcta
+que incluya la imagen 'icono.gif' que se encuentra en la misma carpeta donde está nuestra página HTML
+que incluya la imagen 'icono.gif' que se encuentra en el directorio 'img'
+
+10-¡Cómo se incluye un comentario nuestro en una página HTML para que no se interprete por el navegador?
+
+Con 3 asteriscos al principio y final del comentario. Ej: ***comentario sobre el código***
+Con 3 barras' al principio y final del comentario. Ej: ///comentario sobre el código///
+Con la etiqueta de apertura ' al principio y final del comentario. Ej: <!--comentario sobre el código--> = Correcta
+
+

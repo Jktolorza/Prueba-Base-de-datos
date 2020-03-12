@@ -1,0 +1,90 @@
+--Script SQL que registre al menos 2 evaluaciones, con 10 preguntas y 4 alternativas.
+
+--Creacion de evaluaciones, una para cada programa
+
+insert into test (idtest, nombre, descripcion, programa, unidad, autor,fechadecreacion)
+values (1, 'Prueba POO', 'Evaluacion encargada de probar los conocimientos acerca de la programcion orientada a objetos', 
+'FullStack Java Trainni','Unidad 4', 'Profesor Manuel Astorga', TO_DATE('2019-04-01','YYYY-MM-DD'));
+
+insert into test (idtest, nombre, descripcion, programa, unidad, autor,fechadecreacion)
+values (2, 'Prueba HTML/CSS', 'Evaluacion encargada de probar los conocimientos acerca de los lenguajes HTML y CSS', 
+'Front-End Trainee','Unidad 1', 'Profesor Rigoberto Hernandez', TO_DATE('2018-05-22','YYYY-MM-DD'));
+
+--Creacion de 10 preguntas, prueba 1.
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (1,'¿Cuál es la descripción que crees que define mejor el concepto "clase" en la programación orientada a objetos?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (2,'¿Qué elementos crees que definen a un objeto?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (3,'¿Qué código de los siguientes tiene que ver con la herencia?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (4,'¿Qué significa instanciar una clase?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (5,'En Java, ¿a qué nos estamos refiriendo si hablamos de "Swing"?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (6,'¿Qué es Eclipse?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (7,'¿Qué es el bytecode en Java?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (8,'¿Qué código asociarías a una Interfaz en Java?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (9,'¿Qué significa sobrecargar (overload) un método?', 10,1);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (10,'¿Qué es una excepción?', 10,1);
+
+--Creacion de 10 preguntas, prueba 2.
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (11,'¿Cuál es el lenguaje estándar específico para aplicar estilos de presentación a nuestras páginas web?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (12,'¿Qué es XHTML?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (13,'¿Cuál crees que es la mejor manera de aplicar estilos a una página web?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (14,'¿Por qué es conveniente incluir la declaración de DOCTYPE en la página HTML?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (15,'¿Para que sirve el atributo "class"?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (16,'¿Qué función tiene el elemento "div"?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (17,'¿Qué está mal en esta regla de estilo?: .cuadro { border: 1px blue dotted padding: 10px 5px; }', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (18,'¿Qué significa que una etiqueta/elemento está "deprecated" en HTML?', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (19,'Si incluimos una etiqueta de este tipo en nuestra página HTML, ¿qué queremos que haga el navegador?: <img src="../icono.gif" />', 10,2);
+
+insert into pregunta (idpregunta, enunciado, puntaje, test_idtest)
+values (20,'¿Cómo se incluye un comentario nuestro en una página HTML para que no se interprete por el navegador?', 10,2);
+
+--Creacion de alternativas para todas las preguntas
+
+insert into alternativa(idalt,decripcion,valorlogicocorreccion,porcentajeaportado,pregunta_idpregunta)
+values (1,'Es un concepto similar al de "array"', 0, 0, 1);
+
+insert into alternativa(idalt,decripcion,valorlogicocorreccion,porcentajeaportado,pregunta_idpregunta)
+values (2,'Es un tipo particular de variable', 0, 0, 1);
+
+insert into alternativa(idalt,decripcion,valorlogicocorreccion,porcentajeaportado,pregunta_idpregunta)
+values (3,'Es un modelo o plantilla a partir de la cual creamos objetos', 1, 100, 1);
+
+insert into alternativa(idalt,decripcion,valorlogicocorreccion,porcentajeaportado,pregunta_idpregunta)
+values (4,'Es una categoria de datos ordenada secuencialmente', 0, 0, 1);
+
+

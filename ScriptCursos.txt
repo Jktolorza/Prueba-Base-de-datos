@@ -1,0 +1,67 @@
+--Script  SQL  que  registre  al  menos  2  cursos  de  10  estudiantes  que  respondan  estas evaluaciones.
+
+insert into curso (idcurso,programa)
+values(300,'FullStack Java Trainni');
+
+insert into curso (idcurso, programa)
+values(301, 'Front-End Trainee');
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (1,'Daniel Salgado',23,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (2,'Manuel Pedrero',25,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (3,'Javier Perez',20,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (4,'Roberto Fonseca',23,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (5,'Nora Fernandez',43,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (6,'Raul Parra',38,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (7,'Monica Carter',19,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (8,'Luisa Valez',33,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (9,'Jose Buenavida',45,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (10,'Maria Caceres',29,301);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (11,'Pedro Lizama',25,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (12,'Maria Alvarez',38,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (13,'Maria Paz Vicaria',43,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (14,'Alicia Mandiola',54,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (15,'Maricela Soto',45,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (16,'Daniel Fontaner',33,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (17,'Alberto Rojas',46,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (18,'Violeta Kast',51,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (19,'Daniela Perez',23,300);
+
+insert into estudiante (idestu, nombre, edad,curso_idcurso)
+values (20,'Manuela Palma',18,300);
