@@ -1,0 +1,18 @@
+--1.Conocer el numero de evaluaciones por curso
+select idcurso, programa_idprograma, count(relation_9.curso_idcurso)
+from curso left join relation_9 on (curso.idcurso = relation_9.curso_idcurso)
+group by curso.idcurso ,curso.programa_idprograma
+order by idcurso;
+--2.Conocer los cursos sin evaluacion
+select idcurso, programa_idprograma, count(relaction_9.curso_idcurso)
+from curso left join relation_9 on (curso.idcurso = relation_9.curso_idcurso)
+having 0 = sum(relaction_9.curso_idcurso);
+--3.Determinar las evalaciones con deficiencia
+select idtest
+from test
+where;
+--4.determinar cuantos alumnos hay en cada curso
+select idcurso, count(alumno.idalumno) as "Cantidad de alumnos"
+from curso inner join alumno on(curso.idcurso = alumno.curso_idcurso)
+group by idcurso;
+--5. obtener puntaje no normalizado
